@@ -1,0 +1,53 @@
+body {
+    background-color: #00498F;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+section, div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo-mais-texto {
+    flex-direction: column;
+    align-items: first baseline;
+    justify-content: space-between;
+    max-width: 30vw;
+}
+
+.logo-mais-texto h1 {
+    color: #EBEBEB;
+    font-family: "Noto Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 102%; /* 48.96px */
+    margin-top: 6vh;
+}
+
+.logo-mais-texto p {
+    color: #FFF;
+    text-align: justify;
+    font-family: "Noto Sans";
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 120%; /* 28.8px */
+    margin-top: 3vh;
+}
+
+.logo-mais-texto img {
+    width: 300px;
+}
+
+.imagem-principal {
+    max-width: 40vw;
+
+}
+
+.imagem-principal img {
+    width: 100%;
+}
