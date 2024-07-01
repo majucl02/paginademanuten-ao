@@ -23,7 +23,7 @@ div {
 
 .logo-mais-texto {
     align-items: center;
-    padding-top: 8vh;
+    padding-top: 5vh;
     padding-bottom: 5vh;
     justify-content: space-between;
     max-width: 30vw;
@@ -40,7 +40,7 @@ div {
 
 .logo-mais-texto p {
     color: #FFF;
-    text-align: justify;
+    text-align: center;
     font-family: "Noto Sans";
     font-size: 16px;
     font-style: italic;
@@ -71,16 +71,17 @@ div {
     padding-right: 10vw;
     height: fit-content;
     align-items: first baseline;
+    gap: 36px;
 }
 
 .sitac {
     max-width: 35vw;
     gap: 12px;
-    align-items: first baseline;
+    align-items: center;
 }
 
 .contato{
-    align-items: first baseline;
+    align-items: center;
     max-width: 35vw;
     gap: 12px;
 }
