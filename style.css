@@ -16,6 +16,10 @@ section, div {
     min-width: 350px;
 }
 
+p{
+    line-height: 1.5;
+}
+
 div {
     flex-direction: column;
 }
@@ -72,7 +76,7 @@ div {
 }
 
 .sitac {
-    max-width: 35vw;
+    max-width: 30vw;
     gap: 12px;
     align-items: center;
 }
@@ -84,6 +88,7 @@ div {
 }
 
 .contato p{
+    max-width: ;
     color: #000;
     text-align: justify;
     font-family: "Noto Sans";
